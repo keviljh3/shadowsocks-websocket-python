@@ -1,2 +1,2 @@
 websockify: websockify 0.0.0.0:$PORT 127.0.0.1:$(($PORT+50)) --web webdir
-shadowsocks: ssserver -s 127.0.0.1 -p 80 -k $KEY -m $METHOD
+shadowsocks: ssserver -s 127.0.0.1 -p 80 -k Ss123456 -m aes-256-cfb
